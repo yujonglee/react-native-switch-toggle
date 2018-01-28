@@ -1,15 +1,15 @@
 import * as React from 'react';
 
-interface IProps = {
+interface IProps {
   switchOn: boolean;
   onPress: func;
-  containerStyle?: object,
-  circleStyle?: object,
-  backgroundColorOn?: string,
-  backgroundColorOff?: string,
-  circleColorOff?: string,
-  circleColorOn?: string,
-  duration?: number,
+  containerStyle?: object;
+  circleStyle?: object;
+  backgroundColorOn?: string;
+  backgroundColorOff?: string;
+  circleColorOff?: string;
+  circleColorOn?: string;
+  duration?: number;
 }
 
 declare class SwtichToggle extends React.Component<IProps, any> {
