@@ -4,7 +4,7 @@
   <a href="https://npmjs.org/package/react-native-switch-toggle"><img alt="npm version" src="http://img.shields.io/npm/dm/react-native-switch-toggle.svg?style=flat-square"></a>
 </p>
 Simple switch toggle component for react-native. This component supports horizontal switch toggle with animation with several options like start/end background colors, start/end circle colors, and duration for animation.
-<img src="https://gfycat.com/ValidGivingHoneycreeper"/>
+![Image](https://gfycat.com/ValidGivingHoneycreeper)
 
 ## Changelogs
 - **[1.0.0]**
