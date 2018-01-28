@@ -38,7 +38,7 @@ class Item extends Component {
   };
 
   static propTypes = {
-    on: PropTypes.boolean,
+    switchOn: PropTypes.boolean,
     onPress: PropTypes.func,
     containerStyle: PropTypes.any,
     circleStyle: PropTypes.any,
