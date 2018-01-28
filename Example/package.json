@@ -1,0 +1,32 @@
+{
+  "name": "Example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "start:packager": "node_modules/react-native/packager/packager.sh",
+    "start:reset": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "android:package": "curl http://localhost:8081/index.bundle?platform=android -o android/app/src/main/assets/index.android.bundle",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "jest": "jest",
+    "lint": "eslint -c .eslintrc.js './src/**/*.js'",
+    "build:ios": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios",
+    "build:android": "react-native bundle --entry-file index.js --platform android --dev false --bundle-output android/main.jsbundle --assets-dest android"
+   },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.52.2",
+    "react-native-switch-toggle": "file:../"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
