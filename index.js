@@ -52,10 +52,12 @@ class Item extends Component {
   constructor(props) {
     super(props);
 
+    const endPos = this.props.containerStyle.width - (this.props.circleStyle.width + this.props.containerStyle.padding * 2);
+
     this.state = {
       circlePosXStart: 0,
-      circlePosXEnd: this.props.containerStyle.width - (this.props.circleStyle.width + this.props.containerStyle.padding * 2),
-      animXValue: new Animated.Value(0),
+      circlePosXEnd: endPos,
+      animXValue: new Animated.Value(this.props.switchOn ? 1 : 0),
     };
   }
 

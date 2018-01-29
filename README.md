@@ -7,6 +7,8 @@ Simple switch toggle component for react-native. This component supports horizon
 <img src="http://g.recordit.co/vw8VM9mXSq.gif"/>
 
 ## Changelogs
+- **[1.0.4]**
+  + Initial state support.
 - **[1.0.3]**
   + Support types.
 - **[1.0.1]**
