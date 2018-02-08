@@ -61,6 +61,12 @@ class Item extends Component {
     };
   }
 
+  componentWillReceiveProps(newProps){
+    if(newProps.switchOn != this.props.switchOn){
+      this.runAnimation();
+    }
+  }
+  
   render() {
     return (
       <TouchableOpacity
