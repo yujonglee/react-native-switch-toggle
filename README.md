@@ -7,6 +7,8 @@ Simple switch toggle component for react-native. This component supports horizon
 <img src="https://firebasestorage.googleapis.com/v0/b/bookoo-89f6c.appspot.com/o/switch-toggle.gif?alt=media&token=a9dc36e0-3c25-45dc-bbb7-8b095a716dc8"/>
 
 ## Changelogs
+- **[1.0.6]**
+  + Added new button features to add texts.
 - **[1.0.5]**
   + Support changing state not only from contructor.
 - **[1.0.4]**
@@ -35,7 +37,18 @@ https://github.com/dooboolab/react-native-switch-toggle
 |backgroundColorOff|  | string | 'rgb(215,215,215)' |
 |circleColorOn|  | string | 'white' |
 |circleColorOff|  | string | 'rgb(102,134,205)' |
-|duration|  | number | 300
+|duration|  | number | 300 |
+|type|  |number| 0 - Normal switch, 1 - Switch with a text|
+|buttonText| |string|Text on-top of the button|
+|backTextRight| |string|Text to appear in right side when button toggled to left|
+|backTextLeft|  |string|Text to appear in left side when button toggled to right|
+|buttonTextStyle|   |styles|Styles for text on the button|
+|textRightStyle|    |styles|Styles for text in right|
+|textLeftStyle| |styles|Styles for text in left|
+|buttonStyle|   |styles|Styles for the button|
+|buttonContainerStyle|  |styles|Styles for button container|
+|rightContainerStyle|   |styles|Styles for right text container|
+|leftContainerStyle|    |styles|Styles for left text container|
 
 ## Getting started
 `$ npm install react-native-switch-toggle --save`
@@ -57,7 +70,20 @@ export default class App extends Component<{}> {
     this.state = {
       switchOn1: false,
       switchOn2: false,
+      switchOn4: false
     };
+  }
+  
+  getButtonText() {
+    return this.state.switchOn4 ? 'Hour' : 'Day';
+  }
+  
+  getRightText() {
+    return this.state.switchOn4 ? '' : 'Hour';
+  }
+  
+  getLeftText() {
+    return this.state.switchOn4 ? 'Day' : '';
   }
 
   render() {
@@ -110,6 +136,46 @@ export default class App extends Component<{}> {
           circleColorOn='green'
           duration={500}
         />
+        <SwitchToggle
+          buttonText={this.getButtonText()}
+          backTextRight={this.getRightText()}
+          backTextLeft={this.getLeftText()}
+          
+          type={1}
+          buttonStyle={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            position: 'absolute'
+          }}
+          
+          rightContainerStyle={{flex: 1, alignItems: 'center', justifyContent: 'center'}}
+          leftContainerStyle={{flex: 1, alignItems: 'center', justifyContent: 'flex-start'}}
+        
+          buttonTextStyle={{fontSize: 20}}
+          textRightStyle={{fontSize: 20}}
+          textLeftStyle={{fontSize: 20}}
+        
+          containerStyle={{
+            marginTop: 16,
+            width: 160,
+            height: 65,
+            borderRadius: 30,
+            padding: 5,
+          }}
+          backgroundColorOn='#fff'
+          backgroundColorOff='#fff'
+          circleStyle={{
+            width: 80,
+            height: 55,
+            borderRadius: 27.5,
+            backgroundColor: 'blue', // rgb(102,134,205)
+          }}
+          switchOn={this.state.switchOn4}
+          onPress={this.onPress4}
+          circleColorOff='#e5e1e0'
+          circleColorOn='#e5e1e0'
+          duration={500}
+        />
       </View>
     );
   }
@@ -122,6 +188,9 @@ export default class App extends Component<{}> {
   onPress3 = () => {
     this.setState({ switchOn3: !this.state.switchOn3 });
   }
+  onPress4 = () => {
+    this.setState({switchOn4: !this.state.switchOn4});
+  };
 }
 
 const styles = StyleSheet.create({
