@@ -7,6 +7,8 @@ Simple switch toggle component for react-native. This component supports horizon
 <img src="https://firebasestorage.googleapis.com/v0/b/bookoo-89f6c.appspot.com/o/switch-toggle.gif?alt=media&token=a9dc36e0-3c25-45dc-bbb7-8b095a716dc8"/>
 
 ## Changelogs
+- **[1.0.6]**
+  + Added new button features to add texts.
 - **[1.0.5]**
   + Support changing state not only from contructor.
 - **[1.0.4]**
