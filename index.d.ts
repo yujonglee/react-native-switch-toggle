@@ -23,8 +23,8 @@ interface IProps {
     leftContainerStyle?: any
 }
 
-declare class SwtichToggle extends React.Component<IProps, any> {
+declare class SwitchToggle extends React.Component<IProps, any> {
 
 }
 
-export default SwtichToggle;
+export default SwitchToggle;
