@@ -55,14 +55,20 @@ class Item extends Component {
         rightContainerStyle: PropTypes.any,
         leftContainerStyle: PropTypes.any
     };
+
+    componentWillReceiveProps(newProps){
+        if(newProps.switchOn != this.props.switchOn){
+          this.runAnimation();
+        }
+    };
+
     onPress = () => {
-        this.runAnimation();
         this.props.onPress();
     };
 
     getStart = () => {
         return this.props.type === undefined ? 0 : this.props.type === 0 ? 0 : this.props.containerStyle.padding * 2;
-    }
+    };
 
     runAnimation = () => {
         // this.state.anim.setValue(0);
