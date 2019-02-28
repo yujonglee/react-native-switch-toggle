@@ -1,4 +1,4 @@
-import * as React from '../../node_modules';
+import * as React from 'react';
 
 interface IProps {
     switchOn: boolean;
