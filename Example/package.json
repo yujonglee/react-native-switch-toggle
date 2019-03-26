@@ -17,7 +17,7 @@
    },
   "dependencies": {
     "react": "16.8.5",
-    "react-native": "0.59.1",
+    "react-native": "0.59.2",
     "react-native-switch-toggle": "file:../"
   },
   "devDependencies": {
