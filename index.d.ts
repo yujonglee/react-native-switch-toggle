@@ -1,8 +1,9 @@
 import * as React from 'react';
+import { GestureResponderEvent } from 'react-native'
 
 interface IProps {
     switchOn: boolean;
-    onPress: func;
+    onPress: (event: GestureResponderEvent) => {};
     containerStyle?: object;
     circleStyle?: object;
     backgroundColorOn?: string;
