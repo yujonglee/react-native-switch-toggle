@@ -16,7 +16,7 @@
     "build:android": "react-native bundle --entry-file index.js --platform android --dev false --bundle-output android/main.jsbundle --assets-dest android"
    },
   "dependencies": {
-    "react": "16.8.6",
+    "react": "16.9.0",
     "react-native": "0.59.9",
     "react-native-switch-toggle": "file:../"
   },
