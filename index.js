@@ -54,8 +54,8 @@ class Item extends Component {
     leftContainerStyle: PropTypes.any,
   };
 
-  componentWillReceiveProps(newProps) {
-    if (newProps.switchOn !== this.props.switchOn) {
+  componentDidUpdate(prevProps) {
+    if (prevProps.switchOn !== this.props.switchOn) {
       this.runAnimation();
     }
   };
@@ -71,8 +71,8 @@ class Item extends Component {
   runAnimation = () => {
     // this.state.anim.setValue(0);
     const animValue: any = {
-      fromValue: this.props.switchOn ? 1 : 0,
-      toValue: this.props.switchOn ? 0 : 1,
+      fromValue: this.props.switchOn ? 0 : 1,
+      toValue: this.props.switchOn ? 1 : 0,
       duration: this.props.duration,
     };
     Animated.timing(this.state.animXValue, animValue).start();
