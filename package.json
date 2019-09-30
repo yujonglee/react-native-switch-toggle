@@ -1,6 +1,6 @@
 {
   "name": "react-native-switch-toggle",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "react native switch toggle component by dooboolab.",
   "main": "index.js",
   "scripts": {
