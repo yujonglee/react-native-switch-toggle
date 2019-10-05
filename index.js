@@ -21,6 +21,18 @@ class Item extends Component {
       borderRadius: 15,
       backgroundColor: 'white', // rgb(102,134,205)
     },
+    rightContainerStyle: {
+      justifyContent: 'center',
+    },
+    leftContainerStyle: {
+      justifyContent: 'center',
+    },
+    textRightStyle: {
+      position: 'absolute',
+    },
+    textLeftStyle: {
+      position: 'absolute',
+    },
     backgroundColorOn: 'rgb(227,227,227)',
     backgroundColorOff: 'rgb(215,215,215)',
     circleColorOff: 'white',
@@ -146,7 +158,9 @@ class Item extends Component {
   generateRightText() {
     return (
       <Animated.View style={this.props.rightContainerStyle}>
-        <Text style={this.props.textRightStyle}>{this.props.backTextRight}</Text>
+        {!this.props.switchOn ? (
+          <Text style={this.props.textRightStyle}>{this.props.backTextRight}</Text>
+        ): null}
       </Animated.View>
     );
   }
@@ -154,7 +168,9 @@ class Item extends Component {
   generateLeftText() {
     return (
       <Animated.View style={this.props.leftContainerStyle}>
-        <Text style={this.props.textLeftStyle}>{this.props.backTextLeft}</Text>
+        {this.props.switchOn ? (
+          <Text style={this.props.textLeftStyle}>{this.props.backTextLeft}</Text>
+        ): null}
       </Animated.View>
     );
   }
