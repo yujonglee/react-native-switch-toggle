@@ -92,6 +92,7 @@ class Item extends Component {
   render() {
     return (
       <TouchableOpacity
+        testID='toggle'
         onPress={this.onPress}
         activeOpacity={0.5}
       >
