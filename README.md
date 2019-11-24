@@ -1,4 +1,4 @@
-# react-native-switch-toggle (Deprecated!)
+# react-native-switch-toggle (`Deprecated!`)
 
 > Current package has been moved to [@dooboo-ui/native-switch-toggle](https://www.npmjs.com/package/@dooboo-ui/native-switch-toggle)
 
