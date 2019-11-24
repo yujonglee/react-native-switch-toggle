@@ -4,7 +4,7 @@
 
 [![Npm Version](http://img.shields.io/npm/v/react-native-switch-toggle.svg?style=flat-square)](https://npmjs.org/package/react-native-switch-toggle)
 [![Downloads](http://img.shields.io/npm/dm/react-native-switch-toggle.svg?style=flat-square)](https://npmjs.org/package/react-native-switch-toggle)
-[![Build Status](https://travis-ci.com/dooboolab/react-native-switch-toggle.svg?branch=master)](https://travis-ci.com/dooboolab/react-native-switch-toggle) [![Greenkeeper badge](https://badges.greenkeeper.io/dooboolab/react-native-switch-toggle.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/dooboolab/react-native-switch-toggle.svg?branch=master)](https://travis-ci.com/dooboolab/react-native-switch-toggle)
 ![License](http://img.shields.io/npm/l/react-native-switch-toggle.svg?style=flat-square)
 
 Simple switch toggle component for react-native. This component supports horizontal switch toggle with animation with several options like start/end background colors, start/end circle colors, and duration for animation.
