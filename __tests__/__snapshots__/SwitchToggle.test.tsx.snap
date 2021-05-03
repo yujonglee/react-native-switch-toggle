@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleWidth\` 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+        "padding": 40,
+        "width": 40,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": 80,
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleWidth\` without padding 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+        "padding": 0,
+        "width": 40,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`containerStyle.padding\` 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+        "padding": 40,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": 80,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Rendering should render RTL 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Rendering should render type === 0 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Rendering should render when \`containerStyle\` is not defined 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Rendering should render without crashing 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
