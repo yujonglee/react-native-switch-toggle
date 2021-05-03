@@ -1,6 +1,4 @@
-# react-native-switch-toggle (`Deprecated!`)
-
-> Current package has been moved to [@dooboo-ui/native-switch-toggle](https://www.npmjs.com/package/@dooboo-ui/native-switch-toggle)
+# react-native-switch-toggle
 
 [![Npm Version](http://img.shields.io/npm/v/react-native-switch-toggle.svg?style=flat-square)](https://npmjs.org/package/react-native-switch-toggle)
 [![Downloads](http://img.shields.io/npm/dm/react-native-switch-toggle.svg?style=flat-square)](https://npmjs.org/package/react-native-switch-toggle)
@@ -10,22 +8,9 @@
 Simple switch toggle component for react-native. This component supports horizontal switch toggle with animation with several options like start/end background colors, start/end circle colors, and duration for animation.
 <img src="https://firebasestorage.googleapis.com/v0/b/bookoo-89f6c.appspot.com/o/switch-toggle.gif?alt=media&token=a9dc36e0-3c25-45dc-bbb7-8b095a716dc8"/>
 
-## Changelogs
+## News
 
-- **[1.1.0]**
-  - bugfix: specify the function signature for onPress in index.d.ts [#23](https://github.com/dooboolab/react-native-switch-toggle/pull/23)
-- **[1.0.6]**
-  - Added new button features to add texts.
-- **[1.0.5]**
-  - Support changing state not only from contructor.
-- **[1.0.4]**
-  - Initial state support.
-- **[1.0.3]**
-  - Support types.
-- **[1.0.1]**
-  - Fixed prop-types.
-- **[1.0.0]**
-  - First time publish.
+Current package is fully redesigned in `2.0.0`. We recommend you to use this package version `>=2.0.0`.
 
 ## Npm repo
 

@@ -1,11 +1,14 @@
 {
   "name": "react-native-switch-toggle",
-  "version": "1.1.4",
-  "description": "react native switch toggle component by dooboolab.",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Highly customizable animating react native switch toggle component.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "postinstall": "dooboolab-welcome postinstall",
   "scripts": {
-    "test": "npm test",
-    "lint": "eslint -c .eslintrc.js '.'"
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "build": "rm -rf ./lib && tsc && flowgen lib/index.d.ts -o lib/index.js.flow",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,14 +30,33 @@
   "dependencies": {
     "dooboolab-welcome": "^1.1.0"
   },
+  "peerDependencies": {
+    "react": ">=16.9",
+    "react-native": ">=0.58"
+  },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prop-types": "^15.7.2"
+    "@babel/core": "^7.14.0",
+    "@babel/preset-typescript": "^7.13.0",
+    "@dooboo/eslint-config": "^0.7.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^26.0.23",
+    "@types/react": "~17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-native": "~0.64.4",
+    "@types/react-test-renderer": "^17.0.1",
+    "eslint": "^7.25.0",
+    "flowgen": "^1.14.1",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-native": "^0.64.0",
+    "react-test-renderer": "^17.0.2",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
