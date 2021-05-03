@@ -2691,12 +2691,12 @@ domexception@^2.0.1:
   dependencies:
     webidl-conversions "^5.0.0"
 
-dooboolab-welcome@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/dooboolab-welcome/-/dooboolab-welcome-1.1.0.tgz#4a0aa9d2cbc4e2b1008bf7683bc056b41caa3d0d"
-  integrity sha512-K9TKEeefzDXZiUyLZG+bIr8cy9UoYIfFMseowp/o3czVl7TfkVm3gQpeB85w+TO8xeqzWHiIcEelZbBgt5WUwQ==
+dooboolab-welcome@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/dooboolab-welcome/-/dooboolab-welcome-1.3.0.tgz#2350ab104a1d0d9ba12f1308cbffebdb57c355ab"
+  integrity sha512-dSQG3+gjy1+lNEXj1IQtVvcOxZjtYX3DigfwDV06WxnodNREI4gJoSzDfbhLrBVcov12FvZbx6LeOhX3GWfWlg==
   dependencies:
-    chalk "^2.4.1"
+    "@dooboo/eslint-config" "^0.7.0"
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
