@@ -75,6 +75,7 @@ const SwitchToggle: FC<Props> = (props) => {
     activeOpacity = 0.5,
     ...touchableProps
   } = props;
+
   const [animXValue] = useState(new Animated.Value(switchOn ? 1 : 0));
 
   const getStart = (): number | Record<string, unknown> | undefined => {
@@ -137,17 +138,13 @@ const SwitchToggle: FC<Props> = (props) => {
 
   const generateLeftIcon = (): React.ReactElement => {
     return (
-      <View style={{position: 'absolute', left: 5}}>
-        {backgroundImageOn}
-      </View>
+      <View style={{position: 'absolute', left: 5}}>{backgroundImageOn}</View>
     );
   };
 
   const generateRightIcon = (): React.ReactElement => {
     return (
-      <View style={{position: 'absolute', right: 5}}>
-        {backgroundImageOff}
-      </View>
+      <View style={{position: 'absolute', right: 5}}>{backgroundImageOff}</View>
     );
   };
 

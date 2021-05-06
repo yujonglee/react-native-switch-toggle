@@ -136,6 +136,94 @@ describe('[SwitchToggle]', (): void => {
     });
   });
 
+  describe('Accessibility', (): void => {
+    it('should render AccessibilityLabel', () => {
+      props = {
+        ...props,
+        type: 1,
+        accessibilityLabel: 'Label for test accessibility',
+      };
+
+      component = <SwitchToggle {...props} />;
+
+      const rendered = renderer.create(component);
+
+      expect(rendered).toMatchSnapshot();
+      expect(rendered).toBeTruthy();
+    });
+
+    it('should render AccessibilityRole', () => {
+      props = {
+        ...props,
+        type: 1,
+        accessibilityRole: 'switch',
+      };
+
+      component = <SwitchToggle {...props} />;
+
+      const rendered = renderer.create(component);
+
+      expect(rendered).toMatchSnapshot();
+      expect(rendered).toBeTruthy();
+    });
+
+    it('should render AccessibilityHint', () => {
+      props = {
+        ...props,
+        type: 1,
+        accessibilityHint: 'Accessibility hint can be a string or empty',
+      };
+
+      component = <SwitchToggle {...props} />;
+
+      const rendered = renderer.create(component);
+
+      expect(rendered).toMatchSnapshot();
+      expect(rendered).toBeTruthy();
+    });
+
+    it('should render AccessibilityState', () => {
+      props = {
+        ...props,
+        type: 1,
+        accessibilityState: {
+          disabled: false,
+          selected: true,
+          checked: false,
+          busy: false,
+          expanded: false,
+        },
+      };
+
+      component = <SwitchToggle {...props} />;
+
+      const rendered = renderer.create(component);
+
+      expect(rendered).toMatchSnapshot();
+      expect(rendered).toBeTruthy();
+    });
+
+    it('should render AccessibilityValue', () => {
+      props = {
+        ...props,
+        type: 1,
+        accessibilityValue: {
+          min: 0,
+          max: 1,
+          now: 0,
+          text: 'optional text',
+        },
+      };
+
+      component = <SwitchToggle {...props} />;
+
+      const rendered = renderer.create(component);
+
+      expect(rendered).toMatchSnapshot();
+      expect(rendered).toBeTruthy();
+    });
+  });
+
   describe('Interaction', (): void => {
     it('should simulate onPress', () => {
       const rendered = renderer.create(component);
