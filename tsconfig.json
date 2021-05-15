@@ -6,13 +6,13 @@
     "noResolve": false,
     "noImplicitAny": false,
     "removeComments": false,
-    "sourceMap": false,
+    "sourceMap": true,
     "module": "es2015",
     "moduleResolution": "node",
     "target": "es5",
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "declaration": true
+    "declaration": true,
   },
   "include": [
     "index.tsx"
