@@ -1,5 +1,383 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`[SwitchToggle] Accessibility should render AccessibilityHint 1`] = `
+<View
+  accessibilityHint="Accessibility hint can be a string or empty"
+  accessibilityLabel="Label for test accessibility"
+  accessibilityRole="switch"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Accessibility should render AccessibilityLabel 1`] = `
+<View
+  accessibilityLabel="Label for test accessibility"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Accessibility should render AccessibilityRole 1`] = `
+<View
+  accessibilityLabel="Label for test accessibility"
+  accessibilityRole="switch"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Accessibility should render AccessibilityState 1`] = `
+<View
+  accessibilityHint="Accessibility hint can be a string or empty"
+  accessibilityLabel="Label for test accessibility"
+  accessibilityRole="switch"
+  accessibilityState={
+    Object {
+      "busy": false,
+      "checked": false,
+      "disabled": false,
+      "expanded": false,
+      "selected": true,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] Accessibility should render AccessibilityValue 1`] = `
+<View
+  accessibilityHint="Accessibility hint can be a string or empty"
+  accessibilityLabel="Label for test accessibility"
+  accessibilityRole="switch"
+  accessibilityState={
+    Object {
+      "busy": false,
+      "checked": false,
+      "disabled": false,
+      "expanded": false,
+      "selected": true,
+    }
+  }
+  accessibilityValue={
+    Object {
+      "max": 1,
+      "min": 0,
+      "now": 0,
+      "text": "optional text",
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "transform": Array [
+            Object {
+              "translateX": "NaN[object Object]",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
 exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleWidth\` 1`] = `
 <View
   accessible={true}
