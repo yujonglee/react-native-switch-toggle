@@ -21,6 +21,14 @@
 
 Current package is fully redesigned in `2.0.0`. We recommend you to use this package version `>=2.0.0`.
 
+## Alternative
+
+Do you enjoy using `react-native-switch-toggle`? Then think about using [dooboo-ui](https://github.com/dooboolab/dooboo-ui) which is our ui integrated ilbrary. It included `SwitchToggle` from `0.1.6`.
+
+```
+yarn add doobo-ui
+```
+
 ## Props
 
 |                      | necessary | types   | default                                                  |
