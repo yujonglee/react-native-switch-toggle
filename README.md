@@ -2,8 +2,6 @@
 
 > Simple switch toggle component for react-native. This component supports horizontal switch toggle with animation with several options like start/end background colors, start/end circle colors, and duration for animation.
 
-![switch-toggle](https://user-images.githubusercontent.com/27461460/120913849-32f23580-c6d5-11eb-90bc-be0a97125427.gif)
-
 [![Npm Version](http://img.shields.io/npm/v/react-native-switch-toggle.svg?style=flat-square)](https://npmjs.org/package/react-native-switch-toggle)
 [![Downloads](http://img.shields.io/npm/dm/react-native-switch-toggle.svg?style=flat-square)](https://npmjs.org/package/react-native-switch-toggle)
 [![CI](https://github.com/hyochan/react-native-switch-toggle/actions/workflows/ci.yml/badge.svg)](https://github.com/hyochan/react-native-switch-toggle/actions/workflows/ci.yml)
@@ -15,6 +13,9 @@
 [![supports Android](https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
 [![supports web](https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff)](https://docs.expo.io/workflow/web/)
 [![runs with expo](https://img.shields.io/badge/Runs%20with%20Expo-000.svg?style=flat&logo=EXPO&labelColor=ffffff&logoColor=000)](https://github.com/expo/expo)
+
+
+<img src="https://user-images.githubusercontent.com/27461460/120913849-32f23580-c6d5-11eb-90bc-be0a97125427.gif" height=400 />
 
 ## News
 
