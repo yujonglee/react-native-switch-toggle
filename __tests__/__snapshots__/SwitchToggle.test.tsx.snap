@@ -871,3 +871,76 @@ exports[`[SwitchToggle] Rendering should render without crashing 1`] = `
   </View>
 </View>
 `;
+
+exports[`[SwitchToggle] should render custom \`colors\` and \`duration\` 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255, 0, 0, 1)",
+        "borderRadius": 25,
+        "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 0, 0, 1)",
+          "transform": Array [
+            Object {
+              "translateX": 10,
+            },
+          ],
+          "width": 20,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;

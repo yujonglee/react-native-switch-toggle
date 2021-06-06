@@ -279,4 +279,22 @@ describe('[SwitchToggle]', (): void => {
       expect(props.onPress).toHaveBeenCalled();
     });
   });
+
+  it('should render custom `colors` and `duration`', () => {
+    props = {
+      ...props,
+      backgroundColorOn: 'red',
+      backgroundColorOff: 'red',
+      circleColorOn: 'red',
+      circleColorOff: 'red',
+      duration: 500,
+    };
+
+    component = <SwitchToggle {...props} />;
+
+    const rendered = renderer.create(component);
+
+    expect(rendered).toMatchSnapshot();
+    expect(rendered).toBeTruthy();
+  });
 });
