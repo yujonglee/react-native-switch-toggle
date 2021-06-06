@@ -2,9 +2,6 @@
 
 exports[`[SwitchToggle] Accessibility should render AccessibilityHint 1`] = `
 <View
-  accessibilityHint="Accessibility hint can be a string or empty"
-  accessibilityLabel="Label for test accessibility"
-  accessibilityRole="switch"
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -25,8 +22,13 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityHint 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -38,10 +40,10 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityHint 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -73,7 +75,6 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityHint 1`] = `
 
 exports[`[SwitchToggle] Accessibility should render AccessibilityLabel 1`] = `
 <View
-  accessibilityLabel="Label for test accessibility"
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -94,8 +95,13 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityLabel 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -107,10 +113,10 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityLabel 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -142,8 +148,6 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityLabel 1`] = `
 
 exports[`[SwitchToggle] Accessibility should render AccessibilityRole 1`] = `
 <View
-  accessibilityLabel="Label for test accessibility"
-  accessibilityRole="switch"
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -164,8 +168,13 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityRole 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -177,10 +186,10 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityRole 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -212,18 +221,6 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityRole 1`] = `
 
 exports[`[SwitchToggle] Accessibility should render AccessibilityState 1`] = `
 <View
-  accessibilityHint="Accessibility hint can be a string or empty"
-  accessibilityLabel="Label for test accessibility"
-  accessibilityRole="switch"
-  accessibilityState={
-    Object {
-      "busy": false,
-      "checked": false,
-      "disabled": false,
-      "expanded": false,
-      "selected": true,
-    }
-  }
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -244,8 +241,13 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityState 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -257,10 +259,10 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityState 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -292,26 +294,6 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityState 1`] = `
 
 exports[`[SwitchToggle] Accessibility should render AccessibilityValue 1`] = `
 <View
-  accessibilityHint="Accessibility hint can be a string or empty"
-  accessibilityLabel="Label for test accessibility"
-  accessibilityRole="switch"
-  accessibilityState={
-    Object {
-      "busy": false,
-      "checked": false,
-      "disabled": false,
-      "expanded": false,
-      "selected": true,
-    }
-  }
-  accessibilityValue={
-    Object {
-      "max": 1,
-      "min": 0,
-      "now": 0,
-      "text": "optional text",
-    }
-  }
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -332,8 +314,13 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityValue 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -345,10 +332,10 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityValue 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -400,7 +387,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleW
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
         "flexDirection": "row",
         "padding": 40,
         "width": 40,
@@ -415,7 +402,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleW
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
               "translateX": 80,
@@ -470,7 +457,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleW
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
         "flexDirection": "row",
         "padding": 0,
         "width": 40,
@@ -485,7 +472,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleW
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
               "translateX": "NaN[object Object]",
@@ -540,7 +527,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`contain
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
         "flexDirection": "row",
         "padding": 40,
       }
@@ -554,12 +541,15 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`contain
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "borderRadius": 16,
+          "height": 32,
           "transform": Array [
             Object {
-              "translateX": 80,
+              "translateX": NaN,
             },
           ],
+          "width": 32,
         }
       }
     >
@@ -608,8 +598,13 @@ exports[`[SwitchToggle] Rendering should render RTL 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -621,10 +616,10 @@ exports[`[SwitchToggle] Rendering should render RTL 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -676,8 +671,13 @@ exports[`[SwitchToggle] Rendering should render type === 0 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -689,12 +689,15 @@ exports[`[SwitchToggle] Rendering should render type === 0 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "borderRadius": 16,
+          "height": 32,
           "transform": Array [
             Object {
               "translateX": 0,
             },
           ],
+          "width": 32,
         }
       }
     >
@@ -743,8 +746,13 @@ exports[`[SwitchToggle] Rendering should render when \`containerStyle\` is not d
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -756,10 +764,10 @@ exports[`[SwitchToggle] Rendering should render when \`containerStyle\` is not d
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
           "transform": Array [
             Object {
-              "translateX": "NaN[object Object]",
+              "translateX": 10,
             },
           ],
           "width": 20,
@@ -811,8 +819,13 @@ exports[`[SwitchToggle] Rendering should render without crashing 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": undefined,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderRadius": 25,
         "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
       }
     }
   >
@@ -824,12 +837,88 @@ exports[`[SwitchToggle] Rendering should render without crashing 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": undefined,
+          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "borderRadius": 16,
+          "height": 32,
           "transform": Array [
             Object {
               "translateX": 0,
             },
           ],
+          "width": 32,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`[SwitchToggle] should render custom \`colors\` and \`duration\` 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="SWITCH_ID"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255, 0, 0, 1)",
+        "borderRadius": 25,
+        "flexDirection": "row",
+        "height": 40,
+        "marginTop": 16,
+        "padding": 5,
+        "width": 80,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 0, 0, 1)",
+          "transform": Array [
+            Object {
+              "translateX": 10,
+            },
+          ],
+          "width": 20,
         }
       }
     >
