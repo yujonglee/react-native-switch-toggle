@@ -1,3 +1,6 @@
+[2.2.1]
+Fix CI/CD to deploy `typescript` and `flow`.
+
 [2.2.0]
 Fix typescript not being exposed during deploy. [#49](https://github.com/hyochan/react-native-switch-toggle/issues/49)
 
