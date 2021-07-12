@@ -22,9 +22,6 @@ jobs:
     - name: Build typescript
       run: yarn build
 
-    - name: Remove dist (to test `tsx`)
-      run: rm -rf ./lib
-
     - name: Test
       run: yarn test --coverage
 

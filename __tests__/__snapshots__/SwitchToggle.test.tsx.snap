@@ -40,7 +40,7 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityHint 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -113,7 +113,7 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityLabel 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -186,7 +186,7 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityRole 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -259,7 +259,7 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityState 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -332,7 +332,7 @@ exports[`[SwitchToggle] Accessibility should render AccessibilityValue 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -402,7 +402,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleW
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 80,
@@ -472,7 +472,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`circleW
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": "NaN[object Object]",
@@ -541,7 +541,7 @@ exports[`[SwitchToggle] Rendering should render \`containerStyle\` and \`contain
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "borderRadius": 16,
           "height": 32,
           "transform": Array [
@@ -616,7 +616,7 @@ exports[`[SwitchToggle] Rendering should render RTL 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -689,7 +689,7 @@ exports[`[SwitchToggle] Rendering should render type === 0 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "borderRadius": 16,
           "height": 32,
           "transform": Array [
@@ -764,7 +764,7 @@ exports[`[SwitchToggle] Rendering should render when \`containerStyle\` is not d
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "transform": Array [
             Object {
               "translateX": 10,
@@ -837,7 +837,7 @@ exports[`[SwitchToggle] Rendering should render without crashing 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "rgba(-37, -37, -37, 1)",
+          "backgroundColor": "rgba(109, 109, 109, 1)",
           "borderRadius": 16,
           "height": 32,
           "transform": Array [

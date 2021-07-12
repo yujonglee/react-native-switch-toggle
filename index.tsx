@@ -153,7 +153,7 @@ function SwitchToggle(props: Props): React.ReactElement {
             props.circleStyle,
             {
               backgroundColor: animXValue.interpolate({
-                inputRange: [0.5, 1],
+                inputRange: [0, 1],
                 outputRange: [
                   circleColorOff as string | number,
                   circleColorOn as string | number,
