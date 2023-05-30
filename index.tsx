@@ -43,6 +43,7 @@ interface Props {
   rightContainerStyle?: StyleProp<ViewStyle>;
   leftContainerStyle?: StyleProp<ViewStyle>;
   RTL?: boolean;
+  disabled?: boolean;
 }
 
 function SwitchToggle(props: Props): React.ReactElement {
@@ -129,6 +130,7 @@ function SwitchToggle(props: Props): React.ReactElement {
 
   return (
     <TouchableOpacity
+      disabled={props.disabled}
       testID={props.testID}
       onPress={props.onPress}
       activeOpacity={0.8}>
