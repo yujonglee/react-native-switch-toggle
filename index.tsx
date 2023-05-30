@@ -5,6 +5,7 @@ import {
   Text,
   TextStyle,
   TouchableOpacity,
+  TouchableOpacityProps,
   View,
   ViewStyle,
 } from 'react-native';
@@ -17,7 +18,7 @@ const styles = StyleSheet.create({
   },
 });
 
-interface Props {
+interface Props extends TouchableOpacityProps{
   testID?: string;
   switchOn: boolean;
   onPress: () => void;
