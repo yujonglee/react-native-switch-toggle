@@ -130,6 +130,7 @@ function SwitchToggle(props: Props): React.ReactElement {
 
   return (
     <TouchableOpacity
+      {...props}
       testID={props.testID}
       onPress={props.onPress}
       activeOpacity={0.8}>
