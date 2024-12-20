@@ -54,6 +54,18 @@ function SwitchToggle(props: Props): React.ReactElement {
     duration = 300,
     backgroundImageOn,
     backgroundImageOff,
+    containerStyle = {
+      marginTop: 16,
+      width: 80,
+      height: 40,
+      borderRadius: 25,
+      padding: 5,
+    },
+    circleStyle = {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+    },
   } = props;
 
   const [animXValue] = useState(new Animated.Value(props.switchOn ? 1 : 0));
@@ -185,20 +197,5 @@ function SwitchToggle(props: Props): React.ReactElement {
     </TouchableOpacity>
   );
 }
-
-SwitchToggle.defaultProps = {
-  containerStyle: {
-    marginTop: 16,
-    width: 80,
-    height: 40,
-    borderRadius: 25,
-    padding: 5,
-  },
-  circleStyle: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-  },
-};
 
 export default SwitchToggle;
